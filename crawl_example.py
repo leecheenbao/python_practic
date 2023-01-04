@@ -67,4 +67,4 @@ if not os.path.exists(output_folder):
         print(f"{output_folder} 資料夾不存在～建立資料夾")
         os.mkdir(output_folder)
 df_anime.to_csv(output_url, index=False)
-print(f"資料存擋完畢～{output_url}")
+print("資料存擋完畢～{output_url}")
